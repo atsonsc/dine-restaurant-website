@@ -1,0 +1,59 @@
+.header{
+  
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.logo{
+    padding:3rem 0 0 8.3rem;
+}
+.col-1{
+    background-color: var(--gray);
+    width: 30vw;
+    height: 100vh;
+}
+
+.col-1__container{
+    height: 370px;
+    left: 8.3rem;
+    position: absolute;
+    top: 258px;
+    width: 507px;
+    z-index: 1;
+}
+
+.col-1__container h1{
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 4rem;
+}
+
+.col-1__container p{
+    color: var(--white);
+    font-weight: 400;
+    line-height: 2rem;
+    
+}
+.col-2{
+    background-image: url(../images/homepage/hero-bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 70vw;
+    opacity: .9;
+}
+
+.btn{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    height: 70px;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    width: 240px;
+   
+   
+}

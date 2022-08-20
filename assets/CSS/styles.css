@@ -4,4 +4,13 @@
     --mirage:#17192b;
     --ebone-clay:#242b37;
     --shutle-gray:#5c6779;
+    --primary-font: 'League Spartan', sans-serif;
+    --white: #FFFFFF;
+    
+}
+
+body{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    box-sizing: border-box;
 }
