@@ -1,0 +1,43 @@
+.footer{
+    height: 480px;
+}
+
+.footer__container--primary{
+    align-items: center;
+    background-image: url(../images/homepage/ready-bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    padding: 0 8.3rem;
+}
+.footer__container--primary h3{
+    color: var(--white);
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2rem;
+}
+
+.footer__container--secundary{
+    align-items: center;
+    background-color: var(--gray);
+    display: flex;
+    height: 50%;
+    padding:0 8.3rem;
+}
+
+.footer__container--secundary div{
+    display: flex;
+}
+
+.footer__container--secundary div ul{
+    list-style: none; 
+    margin-left: 10rem;
+}
+.footer__container--secundary div ul li{
+    color: var(--white);
+    font-weight: 300;
+    margin: 1rem 0;
+}

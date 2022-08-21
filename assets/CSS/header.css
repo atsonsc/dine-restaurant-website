@@ -50,6 +50,7 @@
     background: transparent;
     border: 1px solid var(--white);
     color: var(--white);
+    cursor: pointer;
     height: 70px;
     margin-top: 1rem;
     text-transform: uppercase;
