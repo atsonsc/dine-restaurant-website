@@ -38,6 +38,7 @@
 }
 .footer__container--secundary div ul li{
     color: var(--white);
+    font-size: 14px;
     font-weight: 300;
     margin: 1rem 0;
 }

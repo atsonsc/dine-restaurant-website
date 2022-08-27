@@ -1,0 +1,116 @@
+.header{
+    background-image: url(../../images/booking/hero-bg-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    padding: 0 8.3rem;
+}
+
+.logo{
+    padding: 2.5rem 0;
+}
+.header__container{
+    height: 10rem;
+    margin-top: 3rem;
+    width: 22rem;
+   
+}
+.header__title{
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 300;
+}
+.header__text{
+    color: var(--white);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+/* início do form*/
+.form{
+    background-color: #5c677915;
+    height: 16rem;
+    position: relative;
+}
+.form__container{
+    background-color: var(--white);
+    bottom: 5rem;
+    height: 28rem;
+    padding: 2rem;
+    position: absolute;
+    right: 8.3rem;
+    width: 28rem;
+}
+
+.form__input--text, .form__input--email{
+    border: none;
+    height: 2rem;
+    width: 100%;
+    margin: .8rem 0;
+}
+
+.form__border{
+    background-color: var(--beaver);
+    display: block;
+    height: 1px;
+    width: 100%;
+}
+
+.form__container--date, .form__container--time, .form__container--reservation{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: .8rem 0;
+}
+
+.form__input--date, .form__input--time{
+    border: none;
+    width: 75%;
+    
+}
+
+.form__btn--change{
+
+    background-color: transparent;
+    border: none;
+    color: var(--gray);
+    cursor: pointer;
+    font-weight: 700;
+    height: 50px;
+    width: 50px;
+}
+
+
+.form__btn--reservation{
+    background-color: var(--gray);
+    color: var(--white);
+    height: 3rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+/*Início do footer*/
+
+.footer{
+    align-items: center;
+    background-color: var(--gray);
+    display: flex;
+    height: 12rem;
+    padding-left: 8.3rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-left: 8rem;
+}
+
+.footer ul li{
+    color: var(--white);
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

@@ -1,38 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Dine Website Challenge</title>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link href="./assets/CSS/normalize.css" rel="stylesheet">
+  <link href="./assets/CSS/reset.css" rel="stylesheet">
+  <link href="./assets/CSS/booking/booking.css" rel="stylesheet">
+  <link href="./assets/CSS/styles.css" rel="stylesheet">
+
+
+  <title>Dine Website</title>
 </head>
+
 <body>
+  <header class="header">
+    <a   href="./index.html"><img class="logo" src="./assets/images/logo.svg" alt="Logo Dine restaurant"></a>
+    <div class="header__container">
+      <h2 class="header__title">Reservations</h2>
 
-  Reservations
+      <p class="header__text">We can’t wait to host you. If you have any special requirements please feel free to
+        call on the phone number below. We’ll be happy to accommodate you.</p>
+    </div>
+  </header>
+  <main>
+    <section class="form">
+      <div class="form__container">
+        <form  class="form__reservation" action="">
+          <div>
+          <input class="form__input--text" type="text" name="nome" placeholder="Nome">
+          <span class="form__border"></span>
+          <input class="form__input--email" type="email" name="e-mail" placeholder="E-mail">
+        </div>
+          <span class="form__border"></span>
 
-  We can’t wait to host you. If you have any special requirements please feel free to 
-  call on the phone number below. We’ll be happy to accommodate you.
+          <div class="form__container--date">
+            <label for="date">Pick a date</label>
+            <input class="form__input--date" type="date">
+          </div>
+          <span class="form__border"></span>
+          <div class="form__container--time">
+            <label  for="time">Pick a time</label>
+            <input class="form__input--time" type="time">
+          </div>
+          <span class="form__border"></span>
+          <div class="form__container--reservation">
+            <button class="form__btn--change">-</button>
+            <span class="form__span"></span>
+            <p>2 Peoples</p>
+            <button class="form__btn--change">+</button>
+          </div>
+          <span class="form__border"></span>
+
+          <button class="form__btn--reservation">Make Reservation</button>
 
 
+        </form>
 
-  Name
-  Email
-  Pick a date
-  Pick a time
+      </div>
+    </section>
 
-  Make Reservation
-
-
-
-  Marthwaite, Sedbergh
-  Cumbria
-  +00 44 123 4567
-
-  Open Times
-  Mon - Fri: 09:00 AM - 10:00 PM
-  Sat - Sun: 09:00 AM - 11:30 PM
-
+  </main>
+  <footer class="footer">
+    <a href="#"><img src="./assets/images/logo.svg" alt="Logo dine restaurant"></a>
+    <ul>
+      <li>Marthwaite, Sedbergh</li>
+      <li>Cumbria</li>
+      <li> +00 44 123 4567</li>
+    </ul>
+    <ul>
+      <li>Open Times</li>
+      <li>Mon - Fri: 09:00 AM - 10:00 PM</li>
+      <li> Sat - Sun: 09:00 AM - 11:30 PM</li>
+    </ul>
+  </footer>
 </body>
+
 </html>

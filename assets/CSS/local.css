@@ -1,7 +1,7 @@
 .local{
     display: flex;
     flex-direction: row;
-    height: 80vh;
+    height: 100vh;
     position: relative;
 }
 

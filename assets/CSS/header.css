@@ -6,7 +6,7 @@
     position: relative;
 }
 .logo{
-    padding:3rem 0 0 8.3rem;
+    padding:2rem 0 0 8.3rem;
 }
 .col-1{
     background-color: var(--gray);
@@ -18,7 +18,7 @@
     height: 370px;
     left: 8.3rem;
     position: absolute;
-    top: 258px;
+    top: 150px;
     width: 507px;
     z-index: 1;
 }
