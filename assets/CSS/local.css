@@ -36,3 +36,36 @@
     right: 8.3rem
 
 }
+
+@media screen and (max-width: 768px){
+    .local{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .local__image{
+        display: none;
+        
+    }
+
+  
+    .local__container--image{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .local__container{
+        position: static;
+    }
+
+    .local__container h2{
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        margin-top: 2rem;
+        text-align:  center;
+    }
+
+    .local__container P{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align:  center;
+    }
+}

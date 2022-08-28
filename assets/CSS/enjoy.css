@@ -11,6 +11,10 @@
     bottom: 3rem;
     box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 0.5);
 }
+
+.enjoy__image--tablet{
+    display: none;
+}
 .enjoy__container{
     align-items: center;
    flex-direction: column;
@@ -34,4 +38,44 @@
     color: var(--ebone-clay);
     font-weight: 400;
     line-height: 30px;
+}
+
+@media screen and (max-width: 768px){
+
+    .enjoy{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .enjoy__container--image{
+        margin: 3rem auto 0 auto;
+        width: 80%;
+    }
+    .enjoy__image{
+        display: none;
+    }
+
+    .enjoy__image--tablet{
+        display: block;
+    }
+
+    .enjoy__container{
+        position: static;
+    }
+    .enjoy__container h2{
+       
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        padding:0 4rem;
+        text-align:  center;
+    }
+
+    .enjoy__container p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align:  center;
+    }
 }
