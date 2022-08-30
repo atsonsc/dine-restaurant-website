@@ -1,5 +1,5 @@
 .footer{
-    height: 480px;
+    height: 540px;
 }
 
 .footer__container--primary{
@@ -41,4 +41,31 @@
     font-size: 14px;
     font-weight: 300;
     margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+       height: 540px;
+    }
+
+    .footer__container--primary{
+        background-image: url(../images/homepage/ready-bg-tablet.jpg);
+        
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0;
+        width: 100%;
+        height: 50%;
+    }
+    .footer__container--secundary{
+        padding: 0 8.3rem;
+      
+    }
+    .footer__container--secundary div{
+        flex-direction: column;
+    }
+
+    .footer__container--secundary div ul{
+       
+    }
 }

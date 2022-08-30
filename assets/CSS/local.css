@@ -37,6 +37,10 @@
 
 }
 
+ .local__image--tablet{
+    display: none;
+ }
+
 @media screen and (max-width: 768px){
     .local{
         width: 100%;
@@ -45,6 +49,9 @@
     .local__image{
         display: none;
         
+    }
+    .local__image--tablet{
+        display: block;
     }
 
   
