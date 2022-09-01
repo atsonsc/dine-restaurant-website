@@ -107,3 +107,38 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 600px){
+
+    .menu__descripition h3{
+        line-height: 40px;
+        margin-top: 2rem;
+        padding: 0 1.5rem;
+
+    }
+
+    .menu__descripition p{
+        font-size: 1.3rem;
+        padding: 0 1.5rem;
+    }
+
+    .menu__card{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .menu__card div img{
+       width: 327px;
+    }
+
+    .menu__card div span, .menu__card div p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+        padding: 1rem 0 ;
+        margin: 0;
+    }
+
+}

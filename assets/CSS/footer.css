@@ -43,6 +43,17 @@
     margin: 1rem 0;
 }
 
+.btn{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: #FFFFFF;
+    padding: 1rem 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 245px;
+}
+
 @media screen and (max-width: 768px){
     .footer{
        height: 540px;
@@ -50,7 +61,6 @@
 
     .footer__container--primary{
         background-image: url(../images/homepage/ready-bg-tablet.jpg);
-        
         flex-direction: column;
         justify-content: space-evenly;
         padding: 0;
@@ -68,4 +78,17 @@
     .footer__container--secundary div ul{
        
     }
+}
+
+@media  screen and (max-width: 600px) {
+    .footer{
+        display: none;
+    }
+   
+    
+    .table{
+        display: none;
+    }
+
+  
 }

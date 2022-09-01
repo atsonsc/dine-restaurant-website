@@ -48,23 +48,32 @@
     line-height: 2rem;
 }
 
-.btn-table{
+.btn-reservation{
     background: var(--gray);
     border: 1px solid var(--white);
-    color: var(--white);
-    cursor: pointer;
-    height: 70px;
+    color: #FFFFFF;
+    text-align: center;
     margin: 2rem 0;
-    text-transform: uppercase;
-    width: 240px;
-}
-
-.table__container--info a{
-    color: var(--beaver);
-    font-size: 1rem;
-    margin-top: 2.2rem;
+    padding: 1rem 0;
     text-decoration: none;
     text-transform: uppercase;
+    width: 245px;
+    
+
+
+}
+  
+#gathering, #special, #social{
+    background: none;
+    border: none;
+    color: var(--beaver);
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 2.2rem;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;
 }
 .table__container--links{
     display: flex;
@@ -123,6 +132,10 @@
 
     .table__container--links a{
         margin: 1rem;
+    }
+
+    .btn-reservation{
+        margin: 2rem 0;
     }
     
    
